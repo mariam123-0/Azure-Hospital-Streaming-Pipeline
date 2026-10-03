@@ -1,0 +1,4 @@
+# Only needed to run src/producer.py locally.
+# (The Databricks notebooks use the libraries that ship with the Databricks runtime.)
+kafka-python>=2.0.3
+python-dotenv>=1.0.0

@@ -1,0 +1,10 @@
+Subject : Hospital alert - high admissions
+Body    : Number of patients last hour: @{triggerBody()?['num_patients_last_hour']}
+
+Logic App request-body JSON schema (trigger "When an HTTP request is received"):
+{
+  "type": "object",
+  "properties": {
+    "num_patients_last_hour": { "type": "integer" }
+  }
+}
